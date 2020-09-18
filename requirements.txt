@@ -1,0 +1,11 @@
+boto.s3.connection
+flask
+apiai
+datetime
+gspread
+json
+random
+re
+vk
+os
+wolframalpha
