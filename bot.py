@@ -16,11 +16,11 @@ s3 = S3Connection(os.environ['app_id'], # 0
                   os.environ['service_account'])  # 4
 
 # const
-app_id = os.environ['app_id']
+app_id = s3[0]
 client = wolframalpha.Client(app_id)
 app = Flask(__name__)
-df_key = os.environ['df_key']
-VK_API_ACCESS_TOKEN = os.environ['VK_API_ACCESS_TOKEN']
+df_key = s3[1]
+VK_API_ACCESS_TOKEN = s3[2]
 VK_API_VERSION = '5.85'
 session = vk.Session(access_token=VK_API_ACCESS_TOKEN)
 vk = vk.API(session, v=VK_API_VERSION)
