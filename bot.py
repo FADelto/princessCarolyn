@@ -148,7 +148,7 @@ sendMsg(229550415, "Я запустилась!")
 def main():
     data = json.loads(request.data)
     if data["type"] == "confirmation":
-        return "0c945684"
+        return "eb510f4d"
     elif data["type"] == "message_new":
         object = data["object"]
         id = object["peer_id"]
