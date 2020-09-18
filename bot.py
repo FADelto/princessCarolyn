@@ -142,7 +142,7 @@ def HomeWorkAnswer():
 # function for answers
 app = Flask(__name__)
 
-sendMsg(229550415,"Я запустилась!")
+sendMsg(229550415, "Я запустилась!")
 
 @ app.route('/', methods=["POST"])
 def main():
@@ -185,6 +185,5 @@ def main():
             return "ok"
     elif data["type"] =="wall_post_new":
         dataPost()
-
     return "ok"
 
