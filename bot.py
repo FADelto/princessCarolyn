@@ -9,11 +9,11 @@ import re
 import vk
 import os
 import wolframalpha
-# s3 = S3Connection(os.environ['app_id'], # 0
-#                   os.environ['df_key'], # 1
-#                   os.environ['VK_API_ACCESS_TOKEN'], # 2
-#                   os.environ['gspread'],# 3
-#                   os.environ['service_account'])  # 4
+s3 = S3Connection(os.environ['app_id'], # 0
+                  os.environ['df_key'], # 1
+                  os.environ['VK_API_ACCESS_TOKEN'], # 2
+                  os.environ['gspread'],# 3
+                  os.environ['service_account'])  # 4
 
 # const
 app_id = os.environ['app_id']
