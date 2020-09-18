@@ -2,7 +2,6 @@ flask
 apiai
 datetime
 gspread
-re
 vk
 os
 wolframalpha
