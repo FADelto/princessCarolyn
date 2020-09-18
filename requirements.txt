@@ -1,4 +1,3 @@
-boto.s3.connection
 flask
 apiai
 datetime
