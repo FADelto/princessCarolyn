@@ -3,5 +3,4 @@ apiai
 datetime
 gspread
 vk
-os
 wolframalpha
